@@ -6,10 +6,10 @@ public class PersonTest {
     @Test
     public void testGetFullName() {
         // Création d'une instance de Person avec un prénom, un nom et un âge
-        Person person = new Person("benelhocine", "narcisse", 23);
+        Person person = new Person("BELFERRAG", "Yazid", 23);
 
         // Vérification du nom complet
-        assertEquals("Benelhocine Narcisse", person.getFullName());
+        assertEquals("BELFERRAG Yazid", person.getFullName());
 
     }
 
@@ -17,7 +17,7 @@ public class PersonTest {
     public void testIsAdult() {
         // Création d'une instance de Person avec un prénom, un nom et un âge
         Person adult = new Person("nana", "elho", 22);
-        Person minor = new Person("bekri", "ilhem", 23);
+        Person minor = new Person("yazz", "nino", 23);
 
         // Vérification si la personne est majeure
         assertTrue(adult.isAdult());
